@@ -10,7 +10,7 @@ class ProgressScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Progress Indicators'),
       ),
-      body: _ProgressView(),
+      body: const _ProgressView(),
     );
   }
 }
@@ -34,7 +34,7 @@ class _ProgressView extends StatelessWidget {
           const SizedBox(height: 20),
           const Text('Circular y linear controlado'),
           const SizedBox(height: 10),
-          _ControlledProgressIndicator(),
+          const _ControlledProgressIndicator(),
 
         ],
       ),
