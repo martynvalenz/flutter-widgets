@@ -58,10 +58,10 @@ class _CustomLIstTile extends StatelessWidget {
         // Navigator.pushNamed(context, menuItem.link);
 
         // * Usando el go router
-        // context.push(menuItem.link);
+        context.push(menuItem.link);
 
         // * Usando go_router con named routes
-        context.pushNamed(menuItem.link);
+        // context.pushNamed(menuItem.link);
       }
     );
   }
